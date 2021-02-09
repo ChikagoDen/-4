@@ -1,0 +1,17 @@
+fieldset{
+    width: 650px;
+}
+fieldset p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+} 
+fieldset p input,textarea{
+    width: 550px;
+    text-align: center;
+}
+.btn{
+    margin-top: 15px;
+    margin-left: 15px;
+}

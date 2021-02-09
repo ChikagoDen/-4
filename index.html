@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Задание 4</title>
+</head>
+<body>
+    <h1>Задание 4</h1>
+    <form action="#" name="anceta" id="anceta" onsubmit="return validate_form ( );">
+        <fieldset form="anceta" name="infa">
+            <p><label >Имя</label><input type="text" id="name" autofocus form="anceta" placeholder="Имя содержит только буквы" required ></p>
+            <p><label >Телефон</label><input type="tel" id="phone" form="anceta" placeholder="Телефон имеет вид +7(000)000-0000" required></p>
+            <p><label >E-mail</label><input required  type="email" id="email" class="email" form="anceta" placeholder=" E-mail имеет вид mymail@mail.ru, или my.mail@mail.ru, или my-mail@mail.ru" ></p>
+            <p><label >Текст</label><textarea  id="text" form="anceta" placeholder="Текст произвольный" cols="74" rows="5"></textarea></p>
+        </fieldset>
+    <input type="submit" value="Отправить" class="btn" form="anceta">
+    </form>
+
+    <script src="style.js"></script>
+</body>
+</html>
