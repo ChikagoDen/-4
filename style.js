@@ -16,7 +16,6 @@ One: 'That's great. Well, you better get going. You don't want to be late.'
 Two: 'I'll see you next time.'
 One: 'Sure.' Bye.'`
 
-
 // 1. Дан большой текст, в котором для оформления прямой речи используются одинарные кавычки. 
 // Придумать шаблон, который заменяет одинарные кавычки на двойные.
 // const regexp =/\'/g;
